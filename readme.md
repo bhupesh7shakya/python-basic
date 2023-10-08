@@ -18,3 +18,25 @@ git commit - m"<MESAGE>"
 <!-- to change default branch name or rename -->
 
 git branch -M main
+
+<!-- to add remote link of github or other  -->
+
+git remote add origin <REMOTE_REPO_LINK>
+
+<!-- to sync up to main branch of github from local branch -->
+
+git push -u origin main
+
+<!-- to create new branch -->
+
+git checkout -b <BRANCH-NAME>
+
+<!-- to change branch name   -->
+
+git checkout <BRANCH-NAME>
+
+<!-- to upload new barnch -->
+
+git push --set-upstream origin feat-login
+
+added LOgin feature with otp

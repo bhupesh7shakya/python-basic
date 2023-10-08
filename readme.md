@@ -39,4 +39,7 @@ git checkout <BRANCH-NAME>
 
 git push --set-upstream origin feat-login
 
-added LOgin feature with o
+to generate ssh key
+ssh-keygen
+
+added LOgin feature with otp 2factor
